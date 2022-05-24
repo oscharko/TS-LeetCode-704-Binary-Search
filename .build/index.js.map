@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["let nums = [-1,0,3,5,9,12], target = 9\n\nconst search = function(nums: number[], target: number): number {\n  let index: number = nums.indexOf(target)\n  if (nums.length > 0 || index != 0) {\n    return index\n  } else {\n    return -1\n  }\n};\n\nconsole.log(search(nums,target))"],
+  "mappings": "AAAA,IAAI,OAAO,CAAC,IAAG,GAAE,GAAE,GAAE,GAAE,KAAK,SAAS;AAErC,MAAM,SAAS,SAAS,OAAgB,SAAwB;AAC9D,MAAI,QAAgB,MAAK,QAAQ;AACjC,MAAI,MAAK,SAAS,KAAK,SAAS,GAAG;AACjC,WAAO;AAAA,SACF;AACL,WAAO;AAAA;AAAA;AAIX,QAAQ,IAAI,OAAO,MAAK;",
+  "names": []
+}
